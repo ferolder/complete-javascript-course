@@ -21,3 +21,30 @@ calcAge(1993);
 
 // console.log(age); // Not accessible
 // printAge(); // Not accessible
+
+// Hoisting
+// Variables
+// console.log(me);
+// console.log(job);
+// console.log(year);
+
+var me = 'Fernandes';
+let job = 'Developer';
+const year = 1993;
+
+console.log(addDecl(1, 2));
+// console.log(addExpr(5, 5));
+// console.log(addArrow(10, 5));
+
+// Functions
+function addDecl(a, b) {
+  return a + b;
+}
+
+/* const addExpr = function (a, b) {
+  return a + b;
+}; */
+
+// const addArrow = (a, b) => a + b;
+
+console.log(this);
